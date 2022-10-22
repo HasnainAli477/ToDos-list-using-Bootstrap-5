@@ -1,0 +1,25 @@
+i, button {
+    font-size: .4rem;
+}
+
+.btn-custome {
+    font-size: .2px;
+    color:  red;
+}
+
+.body {
+    padding: 1%;
+    width: 75%;
+    border: 0.5px rgb(105, 84, 84) solid;
+    border-radius: 1%;
+}
+
+.card {
+    margin: 1%;
+}
+
+
+
+.card-title, .card-text, .btn {
+    font-size: .5rem;
+}
