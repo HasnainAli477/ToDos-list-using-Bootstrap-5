@@ -15,9 +15,45 @@
 <body>
     <div class="head ms-5 mt-2 mb-0">
         <h3 class="text-primary mb-0">To<span class="text-dark">Do's</span></h3>
+        <!-- Button of adding new or removing all -->
         <i class="fa-solid fa-plus text-danger border border-1 rounded p-1" data-bs-toggle="modal" data-bs-target="#myModal"></i>
         <button class="border border-1 rounded p-1" id="Clear">Clear</button>
+        
+
+
+            <!-- Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+  
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Add Your Todo </h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <label for="exampleInputEmail1" class="form-label">Title</label>
+                        <input type="text" class="form-control" id="head">
+
+                        <label for="exampleInputEmail1" class="form-label">Body</label>
+                        <input type="text" class="form-control" id="body" aria-describedby="emailHelp">
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-warning submit">Submit</button>
+                        <button type="button" class="btn btn-warning update" disabled="true">Update</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+    <!-- Dummy body before coming list -->
     <div class="body mt-2 row ms-5 d-flex justify-content-center">
         <div class="card col-sm-4 col-md-3">
             <div class="card-body">
@@ -31,6 +67,11 @@
           
 
 
+
+          
+
+
+                    
 
 
 
