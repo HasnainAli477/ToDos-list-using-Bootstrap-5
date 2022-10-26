@@ -106,7 +106,7 @@ function todoslist() {
             for(let i = 0;i < response.length;i++){
                 // Displaying each menu in card with title and body
                 body.append(`
-                    <div class="card col-sm-4 col-md-3" id="${response[i]._id}">
+                    <div class="card col-sm-4 col-md-3" id="${response[i].id}">
                     <div class="card-body">
                     <h1 class="card-title fs-5">${response[i].title}</h1>
                     <p class="card-text">${response[i].body}</p>

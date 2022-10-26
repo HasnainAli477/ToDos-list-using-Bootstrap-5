@@ -23,3 +23,18 @@ i, button {
 .card-title, .card-text, .btn {
     font-size: .5rem;
 }
+
+#Clear, .fa-plus {
+    border-width: 1px;
+    border-radius: 15%;
+    transition: all 0.8s;
+}
+
+#Clear:hover, .fa-plus:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 5px 0;
+    background-color: rgb(66, 47, 47);
+    color: white;
+    font-size: 6px;
+    cursor: pointer;
+}
